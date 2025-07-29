@@ -4,15 +4,13 @@ import { getFirestore } from "firebase/firestore";
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAIKEL4H-vdavjiPsX468bG60Ng1DQxNC0",
-    authDomain: "eng-wharf-467405-f5.firebaseapp.com",
-    projectId: "eng-wharf-467405-f5",
-    storageBucket: "eng-wharf-467405-f5.appspot.com",
-    messagingSenderId: "870456171124",
-    appId: "1:870456171124:web:166a5729eacc553dd0cf21",
-    measurementId: "G-H36GZ9Y4FB"
-  
-};
+    apiKey: "AIzaSyAglUBXWcz9XtY-mRBkZwdNULsLAulyGx0",
+    authDomain: "driver-milage-tracker-m1.firebaseapp.com",
+    projectId: "driver-milage-tracker-m1",
+    storageBucket: "driver-milage-tracker-m1.appspot.com",
+    messagingSenderId: "603658963582",
+    appId: "1:603658963582:web:2653ec8378470c1d38e62f"
+  };
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
