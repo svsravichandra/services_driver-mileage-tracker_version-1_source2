@@ -1,5 +1,5 @@
 # Mialage share app
--useful app to track Milage driven by each drivers in a sharing a fleet of vehicles with one click
+-A simple yet useful app to track Milage driven by each drivers in a sharing a fleet of vehicles with one click
 -select the driver name and just snap a photo of odometer before starting a shift and ending a shift. Done.
 -your data is scurely stored and accesable via dashboard., and can be exported to any format you choose.
 
