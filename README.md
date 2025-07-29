@@ -20,3 +20,5 @@
     ```
     gcloud run deploy my-app --source=. --update-secrets=GEMINI_API_KEY=gemini_api_key:latest
     ```
+
+https://coff.ee/svsravichandra
