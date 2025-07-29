@@ -1,6 +1,7 @@
-# AI Studio Gemini App Proxy Server
-
-This nodejs proxy server lets you run your AI Studio Gemini application unmodified, without exposing your API key in the frontend code.
+# Mialage share app
+-useful app to track Milage driven by each drivers in a sharing a fleet of vehicles with one click
+-select the driver name and just snap a photo of odometer before starting a shift and ending a shift. Done.
+-your data is scurely stored and accesable via dashboard., and can be exported to any format you choose.
 
 
 ## Instructions
@@ -9,7 +10,7 @@ This nodejs proxy server lets you run your AI Studio Gemini application unmodifi
 - [Google Cloud SDK / gcloud CLI](https://cloud.google.com/sdk/docs/install)
 - (Optional) Gemini API Key
 
-1. Download or copy the files of your AI Studio app into this directory at the root level.
+1. Download or copy the files of your app into this directory at the root level.
 2. If your app calls the Gemini API, create a Secret for your API key:
      ```
      echo -n "${GEMINI_API_KEY}" | gcloud secrets create gemini_api_key --data-file=-
