@@ -1,0 +1,8 @@
+
+{
+  "name": "Driver Mileage Tracker",
+  "description": "An app for shared car drivers to track their mileage and drive time by snapping photos of the odometer. It uses Gemini to read the mileage from the photos and presents a dashboard of driving stats.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
